@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*------ LANDING PAGE -------*/
+#landing {
+    width:100%;
+    height: 100vh;
+    background-image: url(images/landingpage2.jpg);
+    background-size:cover;
+    background-color: antiquewhite;
+    background-position: center;
+    position: relative;
+}
+.enter {
+    top: 82%;
+    left:76%;
+    position: fixed;
+    font-size: 23px;
+    background-color: #e8d2b9;
+    padding-left:9px;
+    padding-right: 9px;
+    color:#333;
+    text-decoration: none;
+}
+.enter:hover {
+    color:crimson;
+    text-decoration: underline;
+}
+
+/*-------NAVIGATION----------*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:antiquewhite;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:crimson;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 1.5vw;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:palevioletred;
+  }
+
+/*-------PEOPLE & POEMS----------*/
+
+#home {
+    width:100%;
+    height: 100vh;
+    background-color:antiquewhite;
+    position: relative;
+}
+h2 {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    color:crimson;
+    font-family: "Jacquarda Bastarda 9 Charted", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5vw;
+}
+
+#gallery1 {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+}
+.nefeli {
+    width:200px;
+    position: absolute;
+    left: 15%;
+    padding-top: 20px;
+}
+.nefeli:hover {
+    transform: rotate(13deg);
+}
+.angelina {
+    width:270px;
+    position: absolute;
+    left: 40%;
+    padding-top: 20px;
+}
+.angelina:hover {
+    transform: rotate(-13deg);
+}
+.charlie {
+    width:250px;
+    position: absolute;
+    left: 70%;
+    padding-top: 20px;
+}
+.charlie:hover {
+    transform: rotate(7deg);
+}
+#gallery2 {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    background-color:antiquewhite;
+}
+.grace {
+    width:260px;
+    position: absolute;
+    left: 15%;
+    padding-top: 0px;
+}
+.grace:hover {
+    transform: rotate(7deg);
+}
+.katie {
+    width:270px;
+    position: absolute;
+    left: 40%;
+    padding-top: 0px;
+}
+.katie:hover {
+    transform: rotate(12deg);
+}
+.mom {
+    width:285px;
+    position: absolute;
+    left: 67%;
+    padding-top: 0px;
+}
+.mom:hover {
+    transform: rotate(-8deg);
+}
+#gallery3 {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    background-color: antiquewhite;
+}
+.dad {
+    width:300px;
+    position: absolute;
+    left: 13%;
+    padding-top: 0px;
+}
+.dad:hover {
+    transform: rotate(-7deg);
+}
+.isabelle {
+    width:280px;
+    position: absolute;
+    left: 40%;
+    padding-top: 0px;
+}
+.isabelle:hover {
+    transform: rotate(12deg);
+}
+.maddy {
+    width:230px;
+    position: absolute;
+    left: 67%;
+    padding-top: 0px;
+}
+.maddy:hover {
+    transform: rotate(-8deg);
+}
+
+
+
+/*------POEMS---------*/
+#poems {
+    width:100%;
+    height: 87vh;
+    background-color: antiquewhite;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#angpoems {
+    width:100%;
+    height: 95vh;
+    background-color: antiquewhite;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#chapoems {
+    width:100%;
+    height: 110vh;
+    background-color: antiquewhite;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#dadpoems {
+    width:100%;
+    height: 95vh;
+    background-color: antiquewhite;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.poem {
+    padding: 6vw;
+}
+.chapoem {
+    padding: 6vw;
+    height: 75vh;
+}
+
+.text {
+    padding: 6vw;
+    color:palevioletred;
+    font-size: 20px;
+}
+h3 {
+    padding-bottom: 5px;
+    color: crimson;
+    font-family: "Jacquarda Bastarda 9 Charted", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+}
+h4 {
+    padding-bottom: 15px;
+    color: crimson;
+    font-size: 1.5vw;
+}
+.divider {
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 5vh;
+    background-color: antiquewhite;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3vh;
+}
+#scroll {
+    width:100%;
+    height: 80vh;
+    background-color: antiquewhite;
+}
+#madscroll {
+    width:100%;
+    height: 95vh;
+    background-color: antiquewhite;
+}
+
+.questions {
+    padding-top: 20px;
+    padding-left: 25%;
+    padding-right:25%;
+    color: palevioletred;
+    word-wrap:break-word;
+}
+#scroll p {
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+#madscroll p {
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+
+/*------ABOUT---------*/
+#title {
+    width:100%;
+    height: 15vh;
+    background-color: antiquewhite;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#about {
+    width:100%;
+    height: 80vh;
+    background-color: antiquewhite;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.abouttext p {
+    font-size: 1.75vw;
+}
+.abouttext {
+    width: 40%;
+    padding-top:40px;
+}
+#title h1 {
+    padding-top:40px;
+    color: crimson;
+    font-family: "Jacquarda Bastarda 9 Charted", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+
+}
+.abouttext a {
+    color: palevioletred;
+}
+.abouttext a:hover {
+    color: crimson;
+    text-decoration: underline;
+}
+
+.miaimg {
+    height:30vw;
+    padding-left: 20px;
+    padding-top:40px;
+}
+.miaimg:hover {
+    transform: rotate(7deg);
+}
+#about p {
+    color:palevioletred;
+
+}
+#mia {
+    width:100%;
+    height: 93vh;
+    background-color: antiquewhite;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.click p {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
